@@ -1,0 +1,9 @@
+Maxim Wellness Suite 4.4.5 - 1/13/2022
+	Add animation to BPT measurement results
+	
+Maxim Wellness Suite 4.4.4 - 1/11/2022
+	Add Green Channel to BPT
+	Update BPT Result continuously
+
+Maxim Wellness Suite 4.4.3 - 10/25/2021
+	Device connection check feature has been added.

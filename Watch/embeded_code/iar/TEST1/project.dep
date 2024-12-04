@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>4274347593</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\embedded_programming\lesson13\tm4c_cmsis.h</file>
+        </outputs>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+    </configuration>
+</project>

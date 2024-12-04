@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C9E04D30-1423-46B7-858A-93BBBC4A2C6A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RD104BleApi</RootNamespace>
+    <AssemblyName>RD104BleApi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="cybleautobase">
+      <HintPath>CySmartDLL\cybleautobase.dll</HintPath>
+    </Reference>
+    <Reference Include="cyblecommonbase">
+      <HintPath>CySmartDLL\cyblecommonbase.dll</HintPath>
+    </Reference>
+    <Reference Include="cybledonglecommunicator">
+      <HintPath>CySmartDLL\cybledonglecommunicator.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BleNotifyDataEventArgs.cs" />
+    <Compile Include="Ble\BleAddress.cs" />
+    <Compile Include="BleDeviceEventArgs.cs" />
+    <Compile Include="BleException.cs" />
+    <Compile Include="Ble\BleUtility.cs" />
+    <Compile Include="NotifyAlgorithmData.cs" />
+    <Compile Include="NotifyEcgData.cs" />
+    <Compile Include="NotifyPpgData.cs" />
+    <Compile Include="RD104Api.cs" />
+    <Compile Include="CySmart\CySmartBleDevice.cs" />
+    <Compile Include="CySmart\CySmartBleDongle.cs" />
+    <Compile Include="CySmart\CySmartCharacteristic.cs" />
+    <Compile Include="Ble\IBleDongle.cs" />
+    <Compile Include="Ble\IGattCharacteristic.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RD104ApiBattery.cs" />
+    <Compile Include="RD104ApiDacOffset.cs" />
+    <Compile Include="RD104ApiFWVersion.cs" />
+    <Compile Include="RD104BleDevice.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

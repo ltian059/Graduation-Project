@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Li Tian, Uottawa, LIC=R4HWB-LGN7L-FZ4GZ-2L0Q8-MI3FH-TZ58E
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.40.0.3
+Toolchain Path:  D:\Program Files\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.11.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\OneDrive\Desktop\Graduate Project\embeded_code\Keil\testproject\pro1.uvprojx
+Project File Date:  09/15/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'D:\Program Files\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+compiling system_max32665.c...
+linking...
+.\Objects\pro1.axf: Error: L6218E: Undefined symbol SysTick_Handler (referred from startup_max32665.o).
+.\Objects\pro1.axf: Error: L6218E: Undefined symbol MXC_SYS_Clock_Select (referred from system_max32665.o).
+.\Objects\pro1.axf: Error: L6218E: Undefined symbol MXC_SYS_ClockEnable (referred from system_max32665.o).
+.\Objects\pro1.axf: Error: L6218E: Undefined symbol $Super$$__main_after_scatterload (referred from system_max32665.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 4 error messages.
+".\Objects\pro1.axf" - 4 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Maxim
+                https://www.mxim.net/microcontroller/pack/Maxim.MAX32665.1.1.0.pack
+                Maxim::MAX32665@1.1.0
+                Maxim Integrated MAX32665 Series Device Support, Board Support Package and Examples
+   * Component: Startup Version: 1.1.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/MAX32665_Cortex-M4
+  ./RTE/_Target_1
+  D:/Program Files/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/CMSIS/Device/Maxim/MAX32665/Include
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Include/MAX32665
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/ADC
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/AES
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/CAMERAIF
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/CRC
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/DMA
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/FLC
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/GPIO
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/I2C
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/I2S
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/ICC
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/LP
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/LPCMP
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/OWM
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/PT
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/RTC
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/SEMA
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/SPI
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/SYS
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/TMR
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/TRNG
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/UART
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/WDT
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/WUT
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: Maxim::Device&Maxim API:Startup@1.1.0
+      Source file:   Libraries/CMSIS/Device/Maxim/MAX32665/Source/system_max32665.c
+      Source file:   Libraries/CMSIS/Device/Maxim/MAX32665/Source/ARM/backup_max32665.s
+      Source file:   Libraries/CMSIS/Device/Maxim/MAX32665/Source/ARM/sub_main.c
+      Source file:   Libraries/CMSIS/Device/Maxim/MAX32665/Source/ARM/startup_max32665.s
+      Include file:  Libraries/CMSIS/Device/Maxim/MAX32665/Include/max32665.h
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

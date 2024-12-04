@@ -1,0 +1,10 @@
+2024-10-14 14:26:19,701 - INFO - Actual frame rate is 250.14
+2024-10-14 14:26:19,703 - INFO - The newest .bin file found: MAX86176_1014_142505.bin
+2024-10-14 14:26:19,704 - INFO - Read 314884 bytes, processing 314884 bytes (including leftover).
+2024-10-14 14:26:19,704 - INFO - Start time is\uff1a2024-10-14 14:25:05.831
+2024-10-14 14:26:19,835 - INFO - Processed up to byte index 314740, leftover data length: 18
+2024-10-14 14:26:19,884 - INFO - Processing leftover data after stopping.
+2024-10-14 14:26:19,884 - INFO - Started at 2024-10-14 14:25:05.831000
+2024-10-14 14:26:19,885 - INFO - Stopped at: 2024-10-14 14:26:09.916000
+2024-10-14 14:26:19,885 - INFO - Time elapsed: 0h 1m 4s
+2024-10-14 14:26:19,887 - INFO - Completed

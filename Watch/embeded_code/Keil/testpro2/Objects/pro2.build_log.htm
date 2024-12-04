@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Li Tian, Uottawa, LIC=R4HWB-LGN7L-FZ4GZ-2L0Q8-MI3FH-TZ58E
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.40.0.3
+Toolchain Path:  D:\Program Files\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.11.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\OneDrive\Desktop\Graduate Project\embeded_code\Keil\testpro2\pro2.uvprojx
+Project File Date:  09/15/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'D:\Program Files\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+compiling main.c...
+linking...
+.\Objects\pro2.axf: Error: L6218E: Undefined symbol Image$$ARM_LIB_STACK$$ZI$$Limit (referred from startup_armcm4.o).
+Not enough information to list load addresses in the image map.
+Finished: 1 information, 0 warning and 1 error messages.
+".\Objects\pro2.axf" - 1 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.Cortex_DFP.1.1.0.pack
+                ARM::Cortex_DFP@1.1.0
+                ARM Cortex Reference Subsystems Device Family Pack
+   * Component: Startup Variant: C Startup Version: 2.2.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  D:/Program Files/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  D:/Program Files/Arm/Packs/ARM/Cortex_DFP/1.1.0/Device/ARMCM4/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: ARM::Device:Startup&C Startup@2.2.0
+      Include file:  Device/ARMCM4/Include/ARMCM4.h
+      Source file:   Device/ARMCM4/Source/startup_ARMCM4.c
+      Source file:   Device/ARMCM4/Source/system_ARMCM4.c
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

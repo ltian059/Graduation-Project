@@ -1,0 +1,10 @@
+{
+  "clock": 32000,
+  "desired_frame_rate": 250,
+  "auto_detect": true,
+  "file_path": "D:\OneDrive\Desktop\Graduate Project\log\20241013\MAX86176_1014_021236.bin",
+  "search_pattern": "*.bin",
+  "output_directory": "./",
+  "logging": "debug",
+  "logging_directory": "./logging"
+}

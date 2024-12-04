@@ -1,0 +1,10 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\main.o"
+".\objects\backup_max32665.o"
+".\objects\startup_max32665.o"
+".\objects\sub_main.o"
+".\objects\system_max32665.o"
+--strict --scatter ".\Objects\pro1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\pro1.map" -o .\Objects\pro1.axf

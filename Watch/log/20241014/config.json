@@ -1,0 +1,10 @@
+{
+  "clock": 32768,
+  "desired_frame_rate": 250,
+  "auto_detect": true,
+  "file_path": "",
+  "search_pattern": "*.bin",
+  "output_directory": "./",
+  "logging": "info",
+  "logging_directory": "./logging"
+}

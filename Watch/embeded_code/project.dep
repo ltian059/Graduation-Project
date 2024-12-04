@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>4030101015</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\PeriphDrivers\Include\MAX32665\mxc_errors.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\project.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\project.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\algohub_config_api.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sh_comm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sensorhub_api.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\demo.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sensorhub_config_api.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sh_comm.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c_ah_sh_api.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\algohub_api.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sh_comm.xcl</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\CMSIS\Device\Maxim\MAX32665\Include\gcr_regs.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\CMSIS\Device\Maxim\MAX32665\Include\dma_regs.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\CMSIS\Device\Maxim\MAX32665\Include\i2c_regs.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\PeriphDrivers\Include\MAX32665\dma.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\PeriphDrivers\Include\MAX32665\i2c.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\PeriphDrivers\Include\MAX32665\mxc_sys.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\CMSIS\Device\Maxim\MAX32665\Include\max32665.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\CMSIS\Include\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\CMSIS\Include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\CMSIS\Include\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\CMSIS\Include\core_cm4_simd.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\CMSIS\Device\Maxim\MAX32665\Include\system_core1_max32665.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\PeriphDrivers\Include\MAX32665\mxc_device.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\PeriphDrivers\Include\MAX32665\mxc_pins.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\CMSIS\Device\Maxim\MAX32665\Include\system_max32665.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\mxc_config.h</file>
+            <file>$PROJ_DIR$\mxc_delay.h</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\sh_comm.c</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\algohub_api.c</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\algohub_config_api.c</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\i2c_ah_sh_api.c</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\sensorhub_config_api.c</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\demo.c</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\sensorhub_api.c</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\defs.h</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\algohub_config_api.h</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\sh_comm.h</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\sensorhub_api.h</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\algohub_api.h</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\i2c_ah_sh_api.h</file>
+            <file>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\sensorhub_config_api.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\algohub_config_api.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\algohub_api.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\algohub_config_api.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sensorhub_config_api.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\demo.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c_ah_sh_api.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c_ah_sh_api.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sensorhub_api.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sensorhub_config_api.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\algohub_api.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\demo.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sensorhub_api.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\CMSIS\Device\Maxim\MAX32665\Include\gpio_regs.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\PeriphDrivers\Include\MAX32665\mxc_delay.h</file>
+            <file>$PROJ_DIR$\..\msdk-main\Libraries\PeriphDrivers\Include\MAX32665\gpio.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 40 33 6 10 2 11 7 8 36 34 43 39 35 37 42 38 0 41 76 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\sh_comm.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 40 33 6 10 2 11 7 8 36 34 43 39 35 37 42 38 0 41 76 74 55 9 12 3 72 73 5 4 58 53 75</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\algohub_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 40 33 6 10 2 11 7 8 36 34 43 39 35 37 42 38 0 41 76 74 57 5 3 4 54 55 9 75</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\algohub_config_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 40 33 6 10 2 11 7 8 36 34 43 39 35 37 42 38 0 41 76 74 54 12 3 5 4 55 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\i2c_ah_sh_api.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 40 33 6 10 2 11 7 8 36 34 43 39 35 37 42 38 0 41 76 74 58 9 12 3 5 4 31 32 27 29 30 28 53 75</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\sensorhub_config_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 40 33 6 10 2 11 7 8 36 34 43 39 35 37 42 38 0 41 76 74 59 12 3 72 73 5 4 55 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\demo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 40 33 6 10 2 11 7 8 36 34 43 39 35 37 42 38 0 41 76 74 12 3 5 4 53 75 57 54 56 59</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\sensorhub_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 40 33 6 10 2 11 7 8 36 34 43 39 35 37 42 38 0 41 76 74 56 5 3 4 55 9 53 75</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\sh_comm.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Analog\maxrefdes104_eval_package_v1.2.001\MAX32666_Microcontroller_Host_Example_Src_Code\i2c_ah_sh_api.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

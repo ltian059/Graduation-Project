@@ -1,0 +1,386 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Li Tian, Uottawa, LIC=R4HWB-LGN7L-FZ4GZ-2L0Q8-MI3FH-TZ58E
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.40.0.3
+Toolchain Path:  D:\Program Files\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.11.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\OneDrive\Desktop\Graduate Project\embeded_code\Keil\project.uvprojx
+Project File Date:  09/15/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'D:\Program Files\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+linking...
+.\Objects\project.axf: Error: L6242E: Cannot link object rtx_kernel.o as its attributes are incompatible with the image attributes.
+   ... wchart-16 clashes with wchart-32.
+   ... packed-enum clashes with enum_is_int.
+.\Objects\project.axf: Error: L6242E: Cannot link object rtx_mutex.o as its attributes are incompatible with the image attributes.
+   ... wchart-16 clashes with wchart-32.
+   ... packed-enum clashes with enum_is_int.
+.\Objects\project.axf: Error: L6242E: Cannot link object rtx_thread.o as its attributes are incompatible with the image attributes.
+   ... wchart-16 clashes with wchart-32.
+   ... packed-enum clashes with enum_is_int.
+.\Objects\project.axf: Error: L6242E: Cannot link object rtx_timer.o as its attributes are incompatible with the image attributes.
+   ... wchart-16 clashes with wchart-32.
+   ... packed-enum clashes with enum_is_int.
+.\Objects\project.axf: Error: L6242E: Cannot link object rtx_memory.o as its attributes are incompatible with the image attributes.
+   ... wchart-16 clashes with wchart-32.
+   ... packed-enum clashes with enum_is_int.
+.\Objects\project.axf: Error: L6242E: Cannot link object rtx_mempool.o as its attributes are incompatible with the image attributes.
+   ... wchart-16 clashes with wchart-32.
+   ... packed-enum clashes with enum_is_int.
+.\Objects\project.axf: Error: L6242E: Cannot link object rtx_msgqueue.o as its attributes are incompatible with the image attributes.
+   ... wchart-16 clashes with wchart-32.
+   ... packed-enum clashes with enum_is_int.
+.\Objects\project.axf: Error: L6242E: Cannot link object rtx_system.o as its attributes are incompatible with the image attributes.
+   ... wchart-16 clashes with wchart-32.
+   ... packed-enum clashes with enum_is_int.
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 18 information, 0 warning and 8 error messages.
+".\Objects\project.axf" - 8 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: Flash Version: 2.3.0
+   * Component: GPIO Version: 1.0.0
+   * Component: I2C Version: 2.4.0
+   * Component: NAND Version: 2.4.0
+   * Component: SPI Version: 2.3.0
+   * Component: USB Device Version: 2.3.0
+   * Component: USB Host Version: 2.4.0
+   * Component: OS Tick Version: 1.0.1
+   * Component: RTOS2 Version: 2.3.0
+   * Component: Custom Version: 1.0.0
+   * Component: Custom Version: 1.0.0
+   * Component: Custom Version: 1.0.0
+   * Component: Custom Version: 1.0.0
+   * Component: Custom Version: 1.0.0
+   * Component: Custom Version: 1.0.0
+   * Component: CORE Version: 6.1.0
+   * Component: SysTick Version: 1.0.5
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-Compiler.2.1.0.pack
+                ARM::CMSIS-Compiler@2.1.0
+                CMSIS Compiler extensions for Arm Compiler, GCC, Clang, and IAR Compiler
+   * Component: CORE Version: 1.1.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-DSP.1.15.0.pack
+                ARM::CMSIS-DSP@1.15.0
+                CMSIS Embedded Compute Library
+   * Component: DSP Variant: Source Version: 1.15.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-Driver.2.8.0.pack
+                ARM::CMSIS-Driver@2.8.0
+                CMSIS Drivers for external devices
+   * Component: Multi-Slave Version: 1.0.1
+   * Component: Memory Bus Version: 1.1.0
+   * Component: Multi-Slave Version: 1.0.1
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-RTX.5.9.0.pack
+                ARM::CMSIS-RTX@5.9.0
+                RTX RTOS implementation of CMSIS-RTOS2 API
+   * Component: Keil RTX5 Variant: Library Version: 5.9.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-View.1.2.0.pack
+                ARM::CMSIS-View@1.2.0
+                Debugger visualization of software events and statistics
+   * Component: Event Recorder Variant: DAP Version: 1.6.0
+
+Package Vendor: Maxim
+                https://www.mxim.net/microcontroller/pack/Maxim.MAX32665.1.1.0.pack
+                Maxim::MAX32665@1.1.0
+                Maxim Integrated MAX32665 Series Device Support, Board Support Package and Examples
+   * Component: EvKit V1 Version: 1.1.0
+   * Component: ADC Version: 1.1.0
+   * Component: CORE1 Version: 1.1.0
+   * Component: DMA Version: 1.1.0
+   * Component: FLC Version: 1.1.0
+   * Component: GPIO Version: 1.1.0
+   * Component: HTMR Version: 1.1.0
+   * Component: I2C Version: 1.1.0
+   * Component: Low Power Version: 1.1.0
+   * Component: OWM Version: 1.1.0
+   * Component: SYS Version: 1.1.0
+   * Component: Startup Version: 1.1.0
+   * Component: Timers Version: 1.1.0
+   * Component: UART Version: 1.1.0
+   * Component: Temp Sensor Version: 1.1.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/CMSIS
+  ./RTE/CMSIS-View
+  ./RTE/CMSIS_Driver
+  ./RTE/Device/MAX32665_Cortex-M4
+  ./RTE/_Target_1
+  D:/Program Files/Arm/Packs/ARM/CMSIS-DSP/1.15.0/Include
+  D:/Program Files/Arm/Packs/ARM/CMSIS-DSP/1.15.0/PrivateInclude
+  D:/Program Files/Arm/Packs/ARM/CMSIS-Driver/2.8.0/SPI
+  D:/Program Files/Arm/Packs/ARM/CMSIS-RTX/5.9.0/Include
+  D:/Program Files/Arm/Packs/ARM/CMSIS-View/1.2.0/EventRecorder/Include
+  D:/Program Files/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  D:/Program Files/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Driver/Include
+  D:/Program Files/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Include
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/Boards/MAX32665/EvKit_V1/Include
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/Boards/MAX32665/Include
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/CMSIS/Device/Maxim/MAX32665/Include
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/MiscDrivers/ExtMemory
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/MiscDrivers/TempSensor
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Include/MAX32665
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/ADC
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/AES
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/CAMERAIF
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/CRC
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/DMA
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/FLC
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/GPIO
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/I2C
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/I2S
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/ICC
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/LP
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/LPCMP
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/OWM
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/PT
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/RTC
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/SEMA
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/SPI
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/SYS
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/TMR
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/TRNG
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/UART
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/WDT
+  D:/Program Files/Arm/Packs/Maxim/MAX32665/1.1.0/Libraries/PeriphDrivers/Source/WUT
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS Driver:Flash(API)@2.3.0
+      Include file:  CMSIS/Driver/Include/Driver_Flash.h
+
+   * Component: ::CMSIS Driver:GPIO(API)@1.0.0
+      Include file:  CMSIS/Driver/Include/Driver_GPIO.h
+
+   * Component: ::CMSIS Driver:I2C(API)@2.4.0
+      Include file:  CMSIS/Driver/Include/Driver_I2C.h
+
+   * Component: ::CMSIS Driver:NAND(API)@2.4.0
+      Include file:  CMSIS/Driver/Include/Driver_NAND.h
+
+   * Component: ::CMSIS Driver:SPI(API)@2.3.0
+      Include file:  CMSIS/Driver/Include/Driver_SPI.h
+
+   * Component: ::CMSIS Driver:USB Device(API)@2.3.0
+      Include file:  CMSIS/Driver/Include/Driver_USBD.h
+
+   * Component: ::CMSIS Driver:USB Host(API)@2.4.0
+      Include file:  CMSIS/Driver/Include/Driver_USBH.h
+
+   * Component: ::CMSIS:OS Tick(API)@1.0.1
+      Include file:  CMSIS/RTOS2/Include/os_tick.h
+
+   * Component: ::CMSIS:RTOS2(API)@2.3.0
+      Include file:  CMSIS/RTOS2/Include/cmsis_os2.h
+
+   * Component: ARM::CMSIS Driver:Flash:Custom@1.0.0
+      Include file:  CMSIS/Driver/Include/Driver_Flash.h
+      Source file:   CMSIS/Driver/DriverTemplates/Driver_Flash.c
+
+   * Component: ARM::CMSIS Driver:GPIO:Custom@1.0.0
+      Include file:  CMSIS/Driver/Include/Driver_GPIO.h
+      Source file:   CMSIS/Driver/DriverTemplates/Driver_GPIO.c
+
+   * Component: ARM::CMSIS Driver:I2C:Custom@1.0.0
+      Source file:   CMSIS/Driver/DriverTemplates/Driver_I2C.c
+      Include file:  CMSIS/Driver/Include/Driver_I2C.h
+
+   * Component: ARM::CMSIS Driver:SPI:Custom@1.0.0
+      Include file:  CMSIS/Driver/Include/Driver_SPI.h
+      Source file:   CMSIS/Driver/DriverTemplates/Driver_SPI.c
+
+   * Component: ARM::CMSIS Driver:USB Device:Custom@1.0.0
+      Include file:  CMSIS/Driver/Include/Driver_USBD.h
+      Source file:   CMSIS/Driver/DriverTemplates/Driver_USBD.c
+
+   * Component: ARM::CMSIS Driver:USB Host:Custom@1.0.0
+      Include file:  CMSIS/Driver/Include/Driver_USBH.h
+      Source file:   CMSIS/Driver/DriverTemplates/Driver_USBH.c
+
+   * Component: ARM::CMSIS-Compiler:CORE@1.1.0
+      Source file:   source/armcc/retarget_io.c
+
+   * Component: ARM::CMSIS-View:Event Recorder&DAP@1.6.0
+      Include file:  EventRecorder/Config/EventRecorderConf.h
+      Include file:  EventRecorder/Include/EventRecorder.h
+      Source file:   EventRecorder/Source/EventRecorder.c
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: ARM::CMSIS:DSP&Source@1.15.0
+      Source file:   Source/DistanceFunctions/DistanceFunctionsF16.c
+      Source file:   Source/FastMathFunctions/FastMathFunctionsF16.c
+      Source file:   Source/BayesFunctions/BayesFunctionsF16.c
+      Source file:   Source/SVMFunctions/SVMFunctionsF16.c
+      Include file:  Include/arm_const_structs_f16.h
+      Source file:   Source/MatrixFunctions/MatrixFunctions.c
+      Source file:   Source/StatisticsFunctions/StatisticsFunctions.c
+      Source file:   Source/SVMFunctions/SVMFunctions.c
+      Source file:   Source/BasicMathFunctions/BasicMathFunctionsF16.c
+      Include file:  Include/arm_math_f16.h
+      Include file:  Include/arm_common_tables.h
+      Include file:  Include/arm_const_structs.h
+      Source file:   Source/QuaternionMathFunctions/QuaternionMathFunctions.c
+      Source file:   Source/DistanceFunctions/DistanceFunctions.c
+      Source file:   Source/SupportFunctions/SupportFunctions.c
+      Source file:   Source/TransformFunctions/TransformFunctions.c
+      Source file:   Source/FastMathFunctions/FastMathFunctions.c
+      Source file:   Source/InterpolationFunctions/InterpolationFunctions.c
+      Source file:   Source/CommonTables/CommonTables.c
+      Source file:   Source/BasicMathFunctions/BasicMathFunctions.c
+      Source file:   Source/ControllerFunctions/ControllerFunctions.c
+      Source file:   Source/BayesFunctions/BayesFunctions.c
+      Source file:   Source/ComplexMathFunctions/ComplexMathFunctions.c
+      Source file:   Source/FilteringFunctions/FilteringFunctions.c
+      Include file:  Include/arm_common_tables_f16.h
+      Include file:  Include/arm_math.h
+      Source file:   Source/StatisticsFunctions/StatisticsFunctionsF16.c
+      Source file:   Source/InterpolationFunctions/InterpolationFunctionsF16.c
+      Source file:   Source/ComplexMathFunctions/ComplexMathFunctionsF16.c
+      Source file:   Source/TransformFunctions/TransformFunctionsF16.c
+      Source file:   Source/FilteringFunctions/FilteringFunctionsF16.c
+      Source file:   Source/CommonTables/CommonTablesF16.c
+      Source file:   Source/MatrixFunctions/MatrixFunctionsF16.c
+      Source file:   Source/SupportFunctions/SupportFunctionsF16.c
+
+   * Component: ARM::CMSIS:OS Tick:SysTick@1.0.5
+      Source file:   CMSIS/RTOS2/Source/os_systick.c
+
+   * Component: ARM::CMSIS:RTOS2:Keil RTX5&Library@5.9.0
+      Source file:   Template/MemPool.c
+      Source file:   Source/rtx_lib.c
+      Include file:  Config/RTX_Config.h
+      Source file:   Template/main.c
+      Source file:   Template/Semaphore.c
+      Source file:   Template/Thread.c
+      Source file:   Template/Mutex.c
+      Source file:   Config/RTX_Config.c
+      Source file:   Template/Events.c
+      Source file:   Template/Timer.c
+      Source file:   Template/svc_user.c
+      Source file:   Template/MsgQueue.c
+      Include file:  Include/rtx_os.h
+      Library file:  Library/ARM/RTX_V7MF.lib
+
+   * Component: Keil::CMSIS Driver:I2C:Multi-Slave@1.0.1
+      Source file:   I2C/I2C_MultiSlave.c
+      Include file:  Config/I2C_MultiSlave_Config.h
+
+   * Component: Keil::CMSIS Driver:NAND:Memory Bus@1.1.0
+      Include file:  Config/NAND_MemBus_Config.h
+      Source file:   NAND/NAND_MemBus.c
+
+   * Component: Keil::CMSIS Driver:SPI:Multi-Slave@1.0.1
+      Include file:  Config/SPI_MultiSlave_Config.h
+      Include file:  SPI/SPI_MultiSlave.h
+      Source file:   SPI/SPI_MultiSlave.c
+
+   * Component: Maxim::BSP&MAX32665 BSP:EvKit V1@1.1.0
+      Source file:   Libraries/Boards/MAX32665/EvKit_V1/Source/board.c
+      Source file:   Libraries/Boards/MAX32665/Source/stdio.c
+      Source file:   Libraries/Boards/MAX32665/Source/led.c
+      Source file:   Libraries/MiscDrivers/ExtMemory/mx25.c
+      Source file:   Libraries/Boards/MAX32665/Source/pb.c
+
+   * Component: Maxim::Device&Maxim API:ADC@1.1.0
+      Source file:   Libraries/PeriphDrivers/Source/ADC/adc_reva.c
+      Source file:   Libraries/PeriphDrivers/Source/ADC/adc_me14.c
+
+   * Component: Maxim::Device&Maxim API:CORE1@1.1.0
+      Source file:   Libraries/PeriphDrivers/Source/CORE1/system_core1.c
+      Source file:   Libraries/PeriphDrivers/Source/CORE1/ARM/startup_core1.s
+
+   * Component: Maxim::Device&Maxim API:DMA@1.1.0
+      Source file:   Libraries/PeriphDrivers/Source/DMA/dma_me14.c
+      Source file:   Libraries/PeriphDrivers/Source/DMA/dma_reva.c
+
+   * Component: Maxim::Device&Maxim API:FLC@1.1.0
+      Source file:   Libraries/PeriphDrivers/Source/FLC/flc_common.c
+      Source file:   Libraries/PeriphDrivers/Source/FLC/flc_me14.c
+      Source file:   Libraries/PeriphDrivers/Source/FLC/flc_reva.c
+
+   * Component: Maxim::Device&Maxim API:GPIO@1.1.0
+      Source file:   Libraries/PeriphDrivers/Source/GPIO/gpio_reva.c
+      Source file:   Libraries/PeriphDrivers/Source/GPIO/gpio_me14.c
+      Source file:   Libraries/PeriphDrivers/Source/GPIO/gpio_common.c
+
+   * Component: Maxim::Device&Maxim API:HTMR@1.1.0
+      Source file:   Libraries/PeriphDrivers/Source/HTMR/htmr_me14.c
+      Source file:   Libraries/PeriphDrivers/Source/HTMR/htmr_reva.c
+
+   * Component: Maxim::Device&Maxim API:I2C@1.1.0
+      Source file:   Libraries/PeriphDrivers/Source/I2C/i2c_me14.c
+      Source file:   Libraries/PeriphDrivers/Source/I2C/i2c_reva.c
+
+   * Component: Maxim::Device&Maxim API:Low Power@1.1.0
+      Source file:   Libraries/PeriphDrivers/Source/LP/lp_me14.c
+
+   * Component: Maxim::Device&Maxim API:OWM@1.1.0
+      Source file:   Libraries/PeriphDrivers/Source/OWM/owm_reva.c
+      Source file:   Libraries/PeriphDrivers/Source/OWM/owm_me14.c
+
+   * Component: Maxim::Device&Maxim API:SYS@1.1.0
+      Source file:   Libraries/PeriphDrivers/Source/SYS/mxc_delay.c
+      Source file:   Libraries/PeriphDrivers/Source/SYS/sys_me14.c
+      Source file:   Libraries/PeriphDrivers/Source/SYS/mxc_lock.c
+      Source file:   Libraries/PeriphDrivers/Source/SYS/pins_me14.c
+      Source file:   Libraries/PeriphDrivers/Source/SYS/mxc_assert.c
+      Source file:   Libraries/PeriphDrivers/Source/SYS/nvic_table.c
+
+   * Component: Maxim::Device&Maxim API:Startup@1.1.0
+      Source file:   Libraries/CMSIS/Device/Maxim/MAX32665/Source/ARM/backup_max32665.s
+      Source file:   Libraries/CMSIS/Device/Maxim/MAX32665/Source/system_max32665.c
+      Source file:   Libraries/CMSIS/Device/Maxim/MAX32665/Source/ARM/startup_max32665.s
+      Source file:   Libraries/CMSIS/Device/Maxim/MAX32665/Source/ARM/sub_main.c
+      Include file:  Libraries/CMSIS/Device/Maxim/MAX32665/Include/max32665.h
+
+   * Component: Maxim::Device&Maxim API:Timers@1.1.0
+      Source file:   Libraries/PeriphDrivers/Source/TMR/tmr_common.c
+      Source file:   Libraries/PeriphDrivers/Source/TMR/tmr_me14.c
+      Source file:   Libraries/PeriphDrivers/Source/TMR/tmr_reva.c
+
+   * Component: Maxim::Device&Maxim API:UART@1.1.0
+      Source file:   Libraries/PeriphDrivers/Source/UART/uart_reva.c
+      Source file:   Libraries/PeriphDrivers/Source/UART/uart_common.c
+      Source file:   Libraries/PeriphDrivers/Source/UART/uart_me14.c
+
+   * Component: Maxim::Misc Drivers&MiscDrivers:Temp Sensor@1.1.0
+      Source file:   Libraries/MiscDrivers/TempSensor/max31889_driver.c
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

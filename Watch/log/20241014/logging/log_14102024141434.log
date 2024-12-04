@@ -1,0 +1,78 @@
+2024-10-14 14:14:34,759 - INFO - Actual frame rate is 250.14
+2024-10-14 14:14:34,760 - INFO - The newest .bin file found: MAX86176_1014_141424.bin
+2024-10-14 14:14:34,765 - INFO - Read 32768 bytes, processing 32768 bytes (including leftover).
+2024-10-14 14:14:34,765 - INFO - Start time is\uff1a2024-10-14 14:14:24.550
+2024-10-14 14:14:34,779 - INFO - Processed up to byte index 32620, leftover data length: 22
+2024-10-14 14:14:35,230 - INFO - Read 4096 bytes, processing 4118 bytes (including leftover).
+2024-10-14 14:14:35,232 - INFO - Processed up to byte index 4100, leftover data length: 18
+2024-10-14 14:14:36,009 - INFO - Read 4096 bytes, processing 4114 bytes (including leftover).
+2024-10-14 14:14:36,011 - INFO - Processed up to byte index 4080, leftover data length: 34
+2024-10-14 14:14:36,769 - INFO - Read 4096 bytes, processing 4130 bytes (including leftover).
+2024-10-14 14:14:36,771 - INFO - Processed up to byte index 4120, leftover data length: 10
+2024-10-14 14:14:37,642 - INFO - Read 4096 bytes, processing 4106 bytes (including leftover).
+2024-10-14 14:14:37,645 - INFO - Processed up to byte index 4080, leftover data length: 26
+2024-10-14 14:14:38,405 - INFO - Read 4096 bytes, processing 4122 bytes (including leftover).
+2024-10-14 14:14:38,407 - INFO - Processed up to byte index 4120, leftover data length: 2
+2024-10-14 14:14:39,171 - INFO - Read 4096 bytes, processing 4098 bytes (including leftover).
+2024-10-14 14:14:39,172 - INFO - Processed up to byte index 4080, leftover data length: 18
+2024-10-14 14:14:39,939 - INFO - Read 4096 bytes, processing 4114 bytes (including leftover).
+2024-10-14 14:14:39,941 - INFO - Processed up to byte index 4080, leftover data length: 34
+2024-10-14 14:14:40,701 - INFO - Read 4096 bytes, processing 4130 bytes (including leftover).
+2024-10-14 14:14:40,703 - INFO - Processed up to byte index 4120, leftover data length: 10
+2024-10-14 14:14:41,575 - INFO - Read 4096 bytes, processing 4106 bytes (including leftover).
+2024-10-14 14:14:41,577 - INFO - Processed up to byte index 4080, leftover data length: 26
+2024-10-14 14:14:42,340 - INFO - Read 4096 bytes, processing 4122 bytes (including leftover).
+2024-10-14 14:14:42,342 - INFO - Processed up to byte index 4100, leftover data length: 22
+2024-10-14 14:14:43,104 - INFO - Read 4096 bytes, processing 4118 bytes (including leftover).
+2024-10-14 14:14:43,107 - INFO - Processed up to byte index 4080, leftover data length: 38
+2024-10-14 14:14:43,868 - INFO - Read 4096 bytes, processing 4134 bytes (including leftover).
+2024-10-14 14:14:43,871 - INFO - Processed up to byte index 4120, leftover data length: 14
+2024-10-14 14:14:44,632 - INFO - Read 4096 bytes, processing 4110 bytes (including leftover).
+2024-10-14 14:14:44,634 - INFO - Processed up to byte index 4080, leftover data length: 30
+2024-10-14 14:14:45,396 - INFO - Read 4096 bytes, processing 4126 bytes (including leftover).
+2024-10-14 14:14:45,399 - INFO - Processed up to byte index 4120, leftover data length: 6
+2024-10-14 14:14:46,267 - INFO - Read 4096 bytes, processing 4102 bytes (including leftover).
+2024-10-14 14:14:46,269 - INFO - Processed up to byte index 4080, leftover data length: 22
+2024-10-14 14:14:47,027 - INFO - Read 4096 bytes, processing 4118 bytes (including leftover).
+2024-10-14 14:14:47,030 - INFO - Processed up to byte index 4080, leftover data length: 38
+2024-10-14 14:14:47,791 - INFO - Read 4096 bytes, processing 4134 bytes (including leftover).
+2024-10-14 14:14:47,793 - INFO - Processed up to byte index 4120, leftover data length: 14
+2024-10-14 14:14:48,553 - INFO - Read 4096 bytes, processing 4110 bytes (including leftover).
+2024-10-14 14:14:48,555 - INFO - Processed up to byte index 4100, leftover data length: 10
+2024-10-14 14:14:49,430 - INFO - Read 4096 bytes, processing 4106 bytes (including leftover).
+2024-10-14 14:14:49,432 - INFO - Processed up to byte index 4080, leftover data length: 26
+2024-10-14 14:14:50,196 - INFO - Read 4096 bytes, processing 4122 bytes (including leftover).
+2024-10-14 14:14:50,200 - INFO - Processed up to byte index 4120, leftover data length: 2
+2024-10-14 14:14:50,961 - INFO - Read 4096 bytes, processing 4098 bytes (including leftover).
+2024-10-14 14:14:50,963 - INFO - Processed up to byte index 4080, leftover data length: 18
+2024-10-14 14:14:51,726 - INFO - Read 4096 bytes, processing 4114 bytes (including leftover).
+2024-10-14 14:14:51,732 - INFO - Processed up to byte index 4080, leftover data length: 34
+2024-10-14 14:14:52,500 - INFO - Read 4096 bytes, processing 4130 bytes (including leftover).
+2024-10-14 14:14:52,502 - INFO - Processed up to byte index 4120, leftover data length: 10
+2024-10-14 14:14:53,265 - INFO - Read 4096 bytes, processing 4106 bytes (including leftover).
+2024-10-14 14:14:53,267 - INFO - Processed up to byte index 4080, leftover data length: 26
+2024-10-14 14:14:54,135 - INFO - Read 4096 bytes, processing 4122 bytes (including leftover).
+2024-10-14 14:14:54,138 - INFO - Processed up to byte index 4120, leftover data length: 2
+2024-10-14 14:14:54,899 - INFO - Read 4096 bytes, processing 4098 bytes (including leftover).
+2024-10-14 14:14:54,901 - INFO - Processed up to byte index 4060, leftover data length: 38
+2024-10-14 14:14:55,659 - INFO - Read 4096 bytes, processing 4134 bytes (including leftover).
+2024-10-14 14:14:55,662 - INFO - Processed up to byte index 4120, leftover data length: 14
+2024-10-14 14:14:56,416 - INFO - Read 4096 bytes, processing 4110 bytes (including leftover).
+2024-10-14 14:14:56,418 - INFO - Processed up to byte index 4080, leftover data length: 30
+2024-10-14 14:14:57,286 - INFO - Read 4096 bytes, processing 4126 bytes (including leftover).
+2024-10-14 14:14:57,289 - INFO - Processed up to byte index 4120, leftover data length: 6
+2024-10-14 14:14:58,048 - INFO - Read 4096 bytes, processing 4102 bytes (including leftover).
+2024-10-14 14:14:58,050 - INFO - Processed up to byte index 4080, leftover data length: 22
+2024-10-14 14:14:58,806 - INFO - Read 4096 bytes, processing 4118 bytes (including leftover).
+2024-10-14 14:14:58,808 - INFO - Processed up to byte index 4080, leftover data length: 38
+2024-10-14 14:14:59,584 - INFO - Read 4096 bytes, processing 4134 bytes (including leftover).
+2024-10-14 14:14:59,586 - INFO - Processed up to byte index 4120, leftover data length: 14
+2024-10-14 14:15:00,342 - INFO - Read 4096 bytes, processing 4110 bytes (including leftover).
+2024-10-14 14:15:00,344 - INFO - Processed up to byte index 4080, leftover data length: 30
+2024-10-14 14:15:00,665 - INFO - Read 1548 bytes, processing 1578 bytes (including leftover).
+2024-10-14 14:15:00,665 - INFO - Processed up to byte index 1560, leftover data length: 18
+2024-10-14 14:15:00,667 - INFO - Processing leftover data after stopping.
+2024-10-14 14:15:00,667 - INFO - Started at 2024-10-14 14:14:24.550000
+2024-10-14 14:15:00,667 - INFO - Stopped at: 2024-10-14 14:15:00.618000
+2024-10-14 14:15:00,667 - INFO - Time elapsed: 0h 0m 36s
+2024-10-14 14:15:00,667 - INFO - Completed
